@@ -1,0 +1,73 @@
+body {
+    font-family:"Times New Roman", Georgia, Serif;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header {
+    background-image: url("grey_W.png");
+    height:350px;
+}
+
+main {
+    background-image: url("otis_R.png");
+}
+
+footer {
+    background-image: url("bg_footer.png");
+    height:500px;
+    color:white;
+}
+
+li{
+    list-style-type:none;
+}
+
+h3{
+    text-align:center;
+}
+
+footer img{
+    width:50px;
+    height:50px;
+    display:inline-block;
+}
+
+.conteneur{
+    width: 100%;
+    max-width: 960px;
+    display:block;
+    margin:10px;
+    padding:15px;
+}
+
+
+section{
+	-webkit-columns: 3;
+  -moz-columns: 3;
+  columns: 3;
+  -webkit-column-gap: 3em;
+  -moz-column-gap: 3em;
+  column-gap: 3em;
+}
+
+.contact{
+   float:right;
+   
+ }
+
+.map{
+    float:left;
+
+}
+
+.title{
+    float:right;
+    text-align:center;
+ }
+ 
+.profil{
+    
+    float:left;
+ }
+ 
