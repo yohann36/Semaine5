@@ -1,15 +1,15 @@
+
 body {
     font-family:"Times New Roman", Georgia, Serif;
-    margin-left:auto;
-    margin-right:auto;
+    
 }
 
 header {
     background-image: url("grey_W.png");
-    height:350px;
-}
+    padding-bottom:40px;
+}    
 
-main {
+ main {
     background-image: url("otis_R.png");
 }
 
@@ -38,17 +38,29 @@ footer img{
     max-width: 960px;
     display:block;
     margin:10px;
-    padding:15px;
+    margin:auto;
+   
+  
 }
 
 
 section{
-	-webkit-columns: 3;
+  -webkit-columns: 3;
   -moz-columns: 3;
   columns: 3;
-  -webkit-column-gap: 3em;
-  -moz-column-gap: 3em;
-  column-gap: 3em;
+  -webkit-column-gap: 0em;
+  -moz-column-gap: 0em;
+  column-gap: 1em;
+  text-align:justify;
+  padding-bottom:30px;
+  border:solid 1px #c0392b;
+  
+  
+  
+}
+
+strong{
+    color:#c0392b;
 }
 
 .contact{
@@ -58,16 +70,29 @@ section{
 
 .map{
     float:left;
+    margin-top:10px;
 
 }
 
 .title{
-    float:right;
     text-align:center;
- }
+    
+}
  
 .profil{
-    
     float:left;
+    display:inline-block;
+ }
+ 
+ main p{
+     margin-left:50px;
+ }
+ 
+ /* CSS pour la page image  */
+ figure img {
+     width:375px;
+    height:250px;
+    display:inline;
+     
  }
  
