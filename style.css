@@ -23,7 +23,7 @@
 /* modif de la zone header --------------------------------------------------------------------*/
 
     header {
-        background-image: url("grey_W.png");
+        background-image: url("photo/grey_W.png");
         height:10em;
       }    
       
@@ -40,7 +40,7 @@
 /* modif de la zone main------------------------------------------------------------------------*/
 
      main {
-        background-image: url("otis_R.png");
+        background-image: url("photo/otis_R.png");
         clear:both;
     }
 
@@ -66,7 +66,7 @@
 /* modif de la zone Footer-----------------------------------------------------------------------*/
 
     footer {
-        background-image: url("bg_footer.png");
+        background-image: url("photo/bg_footer.png");
         height:500px;
         color:white;
         clear:both;
