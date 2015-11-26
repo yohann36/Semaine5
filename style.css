@@ -7,7 +7,7 @@ body {
 header {
     background-image: url("grey_W.png");
     padding-bottom:40px;
-}    
+  }    
 
  main {
     background-image: url("otis_R.png");
@@ -81,8 +81,7 @@ strong{
  
 .profil{
     float:left;
-    display:inline-block;
- }
+}
  
  main p{
      margin-left:50px;
@@ -92,7 +91,6 @@ strong{
  figure img {
      width:375px;
     height:250px;
-    display:inline;
-     
+    
  }
  
