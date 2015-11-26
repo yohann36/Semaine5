@@ -1,96 +1,90 @@
+/* modif général qui agissent sur tous les zones----------------------------------------------*/
 
-body {
-    font-family:"Times New Roman", Georgia, Serif;
+    body {
+        font-family:"Times New Roman", Georgia, Serif;
     
-}
+    }
 
-header {
-    background-image: url("grey_W.png");
-    padding-bottom:40px;
-  }    
+    li{
+        list-style-type:none;
+    }
 
- main {
-    background-image: url("otis_R.png");
-}
-
-footer {
-    background-image: url("bg_footer.png");
-    height:500px;
-    color:white;
-}
-
-li{
-    list-style-type:none;
-}
-
-h3{
-    text-align:center;
-}
-
-footer img{
-    width:50px;
-    height:50px;
-    display:inline-block;
-}
-
-.conteneur{
-    width: 100%;
-    max-width: 960px;
-    display:block;
-    margin:10px;
-    margin:auto;
-   
-  
-}
-
-
-section{
-  -webkit-columns: 3;
-  -moz-columns: 3;
-  columns: 3;
-  -webkit-column-gap: 0em;
-  -moz-column-gap: 0em;
-  column-gap: 1em;
-  text-align:justify;
-  padding-bottom:30px;
-  border:solid 1px #c0392b;
-  
-  
-  
-}
-
-strong{
-    color:#c0392b;
-}
-
-.contact{
-   float:right;
-   
- }
-
-.map{
-    float:left;
-    margin-top:10px;
-
-}
-
-.title{
-    text-align:center;
+    h3{
+        text-align:center;
+    }
     
-}
- 
-.profil{
-    float:left;
-}
- 
- main p{
-     margin-left:50px;
- }
- 
- /* CSS pour la page image  */
- figure img {
-     width:375px;
-    height:250px;
+    .conteneur{
+        width: 100%;
+        max-width: 960px;
+        display:block;
+        margin:auto;
+    }
+
+/* modif de la zone header --------------------------------------------------------------------*/
+
+    header {
+        background-image: url("grey_W.png");
+        height:10em;
+      }    
+      
+    .title{
+        text-align:center;
     
- }
+    }
  
+    .profil{
+        float:left;
+    }
+
+
+/* modif de la zone main------------------------------------------------------------------------*/
+
+     main {
+        background-image: url("otis_R.png");
+        clear:both;
+    }
+
+    section{
+        -moz-column-count:3;
+        -webkit-column-count:3;
+        -o-column-count:3;
+        column-count:3;
+        -moz-column-gap:5px;
+        -webkit-column-gap:5px;
+        -o-column-gap:5px;
+        column-gap:5px;
+  
+        text-align:justify;
+        border:solid 1px #c0392b;
+        margin-left:-50px;
+    }
+
+    strong{
+        color:#c0392b;
+    }
+
+/* modif de la zone Footer-----------------------------------------------------------------------*/
+
+    footer {
+        background-image: url("bg_footer.png");
+        height:500px;
+        color:white;
+        clear:both;
+    }
+
+    .map{
+        float:left;
+        margin-top:10px;
+    }
+    
+    footer img{
+        width:50px;
+        height:50px;
+        display:inline-block;
+    }
+
+    .contact{
+       float:right;
+    }
+
+
